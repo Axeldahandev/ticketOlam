@@ -1,0 +1,139 @@
+import Event from "../../../schemas/Event.js";
+import { getTicketmasterSessionCookies } from "../../../services/getTicketmasterSessionCookies.js";
+
+const MAX_RETRIES = 8;
+
+export default async function daily_scraping(req, res, next) {
+    try {
+        const events = await Event.find({
+            $and: [
+                // Les 3 steps obligatoires validés :
+                { steps: { $elemMatch: { step_id: 1, status: true } } },
+                { steps: { $elemMatch: { step_id: 2, status: true } } },
+                { steps: { $elemMatch: { step_id: 3, status: true } } },
+                { tickets: { 
+                    $elemMatch: { 
+                        $or: [
+                            { "infoCategories.VGListing": { $exists: true } }, 
+                            { "infoCategories.zones.VGListing": { $exists: true } } 
+                        ] 
+                    } 
+                } }
+            ]
+        });
+
+        if (events.length === 0) {
+            console.log("✅ [DAILY][SCRAPING] [INFO] Aucun événement à traiter. Arrêt du processus.");
+            req.scrapedEvents = 0;
+            return next();
+        } else {
+            console.log(`ℹ️ [DAILY][SCRAPING] [INFO] ${events.length} évènements en vente à traiter.`);
+        }
+
+        let cookies = await getTicketmasterSessionCookies();
+        let count = 0;
+
+        for (let i = 0; i < events.length; i++) {
+            let event = events[i];
+           
+
+            for (let j = 0; j < event.tickets.length; j++) {
+                let attempt = 0;
+                let done = false;
+                let ticket = event.tickets[j];
+                let ticket_url = ticket.url;
+                
+                while (attempt < MAX_RETRIES && !done) {
+                    try {
+                        let resp = await fetch(ticket_url, {
+                            headers: {
+                                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                                "Accept": "application/json",
+                                "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+                                "Connection": "keep-alive",
+                                "Cookie": cookies
+                            }
+                        });
+
+                        let rawText = await resp.text();
+                        let data;
+                        try {
+                            data = JSON.parse(rawText);
+                        } catch (e) {
+                            data = { text: rawText };
+                        }
+
+                        // Blocage détecté
+                    if (data.response && data.response === "block") {
+                        attempt++;
+                        if (attempt < MAX_RETRIES) {
+                            console.log(`ℹ️ [DAILY][SCRAPING] [INFO] Blocage détecté pour ${event.name} (${attempt}/${MAX_RETRIES}), régénération d'un nouveau cookie Ticketmaster...`);
+                            cookies = await getTicketmasterSessionCookies();
+                        } else {
+                            console.warn(`⚠️ [DAILY][SCRAPING] [WARNING] Blocage persistant (${MAX_RETRIES}/${MAX_RETRIES}) sur ${event.name}.`);
+                            done = true;
+                        }
+                    } else if (typeof data.text === "string" && data.text.includes("n'est pas ouverte à la vente")) {
+                        console.log(`✅ [DAILY][SCRAPING] [INFO] ${event.name} : l'évènement n'est pas ouvert à la vente`);
+                        count++;
+                        done = true;
+                    } // Cas normal : JSON exploitable
+                    else if (Array.isArray(data) && data[0]?.infoCategories) {
+                        const newInfoCategories = data[0].infoCategories;
+                        ticket.infoCategories = mergeNbPlacesOnly(ticket.infoCategories, newInfoCategories);
+
+                        await Event.updateOne(
+                            {
+                              _id: event._id,
+                              "tickets.url": ticket.url
+                            },
+                            {
+                              $set: {
+                                "tickets.$[elem].infoCategories": ticket.infoCategories,
+                                updated_at: new Date()
+                              }
+                            },
+                            {
+                              arrayFilters: [{ "elem.url": ticket.url }]
+                            }
+                          );
+
+                        console.log(`✅ [DAILY][SCRAPING] nbPlaces MAJ pour ${event.name} - Ticket ${ticket.dateSeance}`);
+                        count++;
+                        done = true;
+                    }
+
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+
+                    } catch (error) {
+                        console.error(`❌ [DAILY][SCRAPING] [ERROR] Événement ${event.name} - Ticket ${ticket.url} :`, error);
+                        attempt++;
+                    }
+                }
+            }
+
+        }
+
+    } catch (error) {
+        console.error("❌ [ERROR] daily_scraping :", error);
+    }
+}
+
+function mergeNbPlacesOnly(oldInfoCategories, newInfoCategories) {
+    if (!Array.isArray(oldInfoCategories) || !Array.isArray(newInfoCategories)) return oldInfoCategories;
+
+    return oldInfoCategories.map(oldCat => {
+        const newCat = newInfoCategories.find(nc => nc.codCatPl === oldCat.codCatPl);
+        if (newCat) {
+            const updatedCat = { ...oldCat, nbPlaces: newCat.nbPlaces };
+            if (Array.isArray(oldCat.zones) && Array.isArray(newCat.zones)) {
+                updatedCat.zones = oldCat.zones.map(oldZone => {
+                    const newZone = newCat.zones.find(nz => nz.codeZone === oldZone.codeZone);
+                    return newZone ? { ...oldZone, nbplaces: newZone.nbplaces } : oldZone;
+                });
+            }
+            return updatedCat;
+        }
+        return oldCat;
+    });
+}

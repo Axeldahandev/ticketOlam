@@ -1,0 +1,58 @@
+[
+  {
+    "event_id": "686e201f0a3c4ab62c4938ab",
+    "ticketmaster_id": "rZ7SnyZ1A77eAa",
+    "event_name": "LE ROI LION",
+    "date_seance": "2025-09-17T20:00:00.000+02:00",
+    "venue": {
+      "name": "THEATRE MOGADOR",
+      "city": "Paris",
+      "country": "France",
+      "postal_code": "75009"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 81,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-09-17T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "ORCHESTRE",
+        "nbPlaces": 50,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-09-17T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 87,
+        "price": 73.5,
+        "listingPrice": 88.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-09-17T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "BALCON",
+        "nbPlaces": 53,
+        "price": 73.5,
+        "listingPrice": 88.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-09-17T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  }
+]

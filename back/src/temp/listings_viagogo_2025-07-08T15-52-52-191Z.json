@@ -1,0 +1,236 @@
+[
+  {
+    "event_id": "686d3e2d9061c469bf4479f5",
+    "ticketmaster_id": "rZ7SnyZ1A77Ov7",
+    "event_name": "JEREMY NADEAU",
+    "date_seance": "2025-11-25T20:30:00.000+01:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 82,
+        "price": 25.2,
+        "listingPrice": 30.24,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:30:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e2e9061c469bf447a0d",
+    "ticketmaster_id": "rZ7SnyZ1A77_Ot",
+    "event_name": "FERDI",
+    "date_seance": "2025-12-09T20:30:00.000+01:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 80,
+        "price": 25.2,
+        "listingPrice": 30.24,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-09T20:30:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e2f9061c469bf447a25",
+    "ticketmaster_id": "rZ7SnyZ1A77_Ox",
+    "event_name": "EQUINOX",
+    "date_seance": "2026-01-17T20:30:00.000+01:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 82,
+        "price": 12.2,
+        "listingPrice": 14.639999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-17T20:30:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e2f9061c469bf447a34",
+    "ticketmaster_id": "rZ7SnyZ1A77_8a",
+    "event_name": "LES ETOILES DE LA DANSE",
+    "date_seance": "2026-02-09T20:30:00.000+01:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 82,
+        "price": 35.2,
+        "listingPrice": 42.24,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-09T20:30:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e309061c469bf447a4c",
+    "ticketmaster_id": "rZ7SnyZ1A77_fO",
+    "event_name": "LE KANGOUROU A BRETELLES",
+    "date_seance": "2026-03-24T20:30:00.000+01:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 82,
+        "price": 43.5,
+        "listingPrice": 52.199999999999996,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-24T20:30:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e309061c469bf447a58",
+    "ticketmaster_id": "rZ7SnyZ1A77_3f",
+    "event_name": "OUBLIE-MOI JE T'AIME",
+    "date_seance": "2026-04-09T20:30:00.000+02:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 82,
+        "price": 35.2,
+        "listingPrice": 42.24,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-09T20:30:00.000+02:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e309061c469bf447a5b",
+    "ticketmaster_id": "rZ7SnyZ1A77x4w",
+    "event_name": "MESSMER - 13Hz",
+    "date_seance": "2026-04-10T20:00:00.000+02:00",
+    "venue": {
+      "name": "PARC DES EXPOSITIONS - LORIENT",
+      "city": "Lanester",
+      "country": "France",
+      "postal_code": "56600"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 512,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-10T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 512,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-10T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 732,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-10T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GRADIN FAC",
+        "nbPlaces": 371,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-10T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 226,
+        "price": 48,
+        "listingPrice": 57.599999999999994,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-10T20:00:00.000+02:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "686d3e309061c469bf447a6a",
+    "ticketmaster_id": "rZ7SnyZ1A77_OK",
+    "event_name": "DON QUICHOTTE",
+    "date_seance": "2026-04-30T20:30:00.000+02:00",
+    "venue": {
+      "name": "L'AMPHY",
+      "city": "Yutz",
+      "country": "France",
+      "postal_code": "57970"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE UNIQUE",
+        "nbPlaces": 80,
+        "price": 43.5,
+        "listingPrice": 52.199999999999996,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-30T20:30:00.000+02:00",
+        "type": "category"
+      }
+    ]
+  }
+]

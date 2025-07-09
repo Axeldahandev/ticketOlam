@@ -1,0 +1,22 @@
+{
+    "TICKETMASTER": "VIAGOGO",
+    "-----------" : "------------" ,
+    "DEBOUT": [ "Debout", "Placement Libre", "Parterre"],
+    "PARTERRE": ["Parterre", "Placement Libre"],
+    "CATEGORIE 1": ["Catégorie 1", "Categorie 1", "Category 1"],
+    "CATEGORIE 2": ["Catégorie 2", "Categorie 2", "Category 2"],
+    "CATEGORIE 3": ["Catégorie 3", "Categorie 3", "Category 3"],
+    "CATEGORIE 4": ["Catégorie 4", "Categorie 4", "Category 4"],
+    "CATEGORIE 5": ["Catégorie 5", "Categorie 5", "Category 5"],
+    "CATEGORIE 6": ["Catégorie 6", "Categorie 6", "Category 6"],
+    "CATEGORIE 7": ["Catégorie 7", "Categorie 7", "Category 7"],
+    "CATEGORIE 8": ["Catégorie 8", "Categorie 8", "Category 8"],
+    "CATEGORIE 9": ["Catégorie 9", "Categorie 9", "Category 9"],
+    "CATEGORIE 10": ["Catégorie 10", "Categorie 10", "Category 10"],
+    "CATEGORIE OR": ["Catégorie Gold", "Carré Or", "Catégorie Or", "Category Gold", "Square Or", "Category Or"],
+    "CARRE OR": ["Catégorie Gold", "Carré Or", "Catégorie Or", "Category Gold", "Square Or", "Category Or"],
+    "CATEGORIE GOLD": ["Catégorie Gold", "Carré Or", "Catégorie Or", "Category Gold", "Square Or", "Category Or"],
+    "FOSSE": ["Fosse", "Floor"],
+    "GRADINS": ["Gradins"],
+    "LIBRE": ["Parterre", "Placement Libre"]
+}

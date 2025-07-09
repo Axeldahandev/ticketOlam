@@ -1,0 +1,20 @@
+{
+    "TICKETMASTER": "VIAGOGO",
+    "-----------" : "------------",
+    "CARRE OR" : ["Parterre"],
+    "GR FACE 1": ["GR Face 1", "Gradins", "Catégorie 1"],
+    "GR FACE 2": ["GR Face 2", "Gradins", "Catégorie 2"],
+    "GR FACE 3": ["GR Face 3", "Gradins", "Catégorie 3"],
+    "CATEGORIE 1": ["Gradins"],
+    "CATEGORIE 2": ["Gradins"],
+    "CATEGORIE 3": ["Gradins"],
+    "CATEGORIE OR": ["Premium"],
+    "DEBOUT" : ["Parterre"],
+    "P.DEBOUT" : ["Parterre"],
+    "LATERAL IM": ["Gradins Lateral"],
+    "LATERAL PA": ["Gradins Lateral"],
+    "GR LATERAL": ["Tribune Intermédiaire"],
+    "GR.LAT.IMP": ["Gradins Lateral"],
+    "GR.LAT.PAI": ["Gradins Lateral"],
+    "FO DEBOUT": ["Fosse"]
+}
