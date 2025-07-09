@@ -1,0 +1,126 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    animation: slideDown 0.25s ease-out;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    font-size: 14px;
+    color: #374151;
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #6b7280;
+    transition: color 0.2s, transform 0.1s;
+}
+
+.modal-close-button:hover {
+    color: #111827;
+    transform: scale(1.1);
+}
+
+.ticket-section {
+    background: #f9fafb;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 10px 0;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+}
+
+.ticket-section p {
+    display: flex;
+    margin: 4px 0;
+    font-weight: 500;
+}
+
+ul {
+    padding-left: 18px;
+    margin: 6px 0;
+}
+
+ul li {
+    font-size: 13px;
+    color: #374151;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #dc2626;
+    font-weight: 600;
+    text-align: center;
+    margin: 8px 0;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ticket-section {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.categories-details p {
+    margin: 4px 0;
+}
+
+.categories-details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.categories-details li {
+    margin: 2px 0;
+}

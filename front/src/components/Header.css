@@ -1,0 +1,31 @@
+.header-bar {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  background: #60a5fa;
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.08);
+  align-items: center;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header-btn {
+  background: #fff;
+  color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(30, 64, 175, 0.07);
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.header-btn:hover, .header-btn:focus {
+  background: #2563eb;
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+} 
