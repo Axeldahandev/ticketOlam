@@ -16,18 +16,18 @@ puppeteer.use(StealthPlugin());
 const get_viagogo_cookies = async (req, res, next) => {
     try {
         const browser = await puppeteer.launch({
-            headless: true,
+            headless: false,
             args: ["--no-sandbox", "--disable-setuid-sandbox"]
         });
         const page = await browser.newPage();
         await page.goto("https://google.fr/", { waitUntil: "networkidle2" });
         await page.waitForSelector('.QS5gu.sy4vM', { visible: true });
         await page.click('.QS5gu.sy4vM');
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        await page.goto("https://inv.viagogo.com/", { waitUntil: "networkidle2" });
         await new Promise(resolve => setTimeout(resolve, 500));
         while (page.url() !== "https://inv.viagogo.com/") {
             await page.goto("https://facebook.com/", { waitUntil: "networkidle0" });
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await page.goto("https://www.leboncoin.fr/", { waitUntil: "networkidle2" });
             await new Promise(resolve => setTimeout(resolve, 500));
             await page.goto("https://inv.viagogo.com/", { waitUntil: "networkidle2" });
             await new Promise(resolve => setTimeout(resolve, 500));
