@@ -12,7 +12,7 @@ function normalize(str) {
 
 function loadSalleMatchingJSON(venueName) {
     if (!venueName) return null;
-    const sallesDir = path.join(process.cwd(), "src/config/matchings/salles");
+    const sallesDir = path.join(process.cwd(), "back/src/config/matchings/salles");
     const salleFileName = venueName
         .toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, "") // remove accents
@@ -28,7 +28,7 @@ function loadSalleMatchingJSON(venueName) {
 }
 
 function loadGeneralMatchingJSON() {
-    const generalFile = path.join(process.cwd(), "src/config/matchings/general_matchings.json");
+    const generalFile = path.join(process.cwd(), "back/src/config/matchings/general_matchings.json");
     if (fs.existsSync(generalFile)) {
         return JSON.parse(fs.readFileSync(generalFile, "utf8"));
     }

@@ -147,7 +147,7 @@ function getListingFileNameFromVenueName(venueName) {
         const fileName = getListingFileNameFromVenueName(venueName);
         if (!fileName) continue;
   
-        const filePath = path.join(process.cwd(), "src", "temp", fileName);
+        const filePath = path.join(process.cwd(), "back/src/temp", fileName);
   
         if (!fs.existsSync(filePath)) {
           console.warn(`Fichier listings non trouvé : ${filePath}`);
@@ -186,7 +186,7 @@ function getListingFileNameFromVenueName(venueName) {
 
 const getListOfListingFiles = (req, res) => {
   try {
-    const listingsDir = path.resolve("./src/temp"); // dossier où sont stockés les listings
+    const listingsDir = path.resolve("back/src/temp"); // dossier où sont stockés les listings
     const files = fs.readdirSync(listingsDir)
       .filter(file => file.endsWith(".json"))
       .map(file => file.replace(".json", "")); // enlever extension
@@ -207,7 +207,7 @@ const getEventsFromListingFile = (req, res) => {
       return res.status(400).json({ error: "Paramètre 'file' manquant dans le body." });
     }
 
-    const listingsDir = path.resolve("./src/temp");
+    const listingsDir = path.resolve("back/src/temp");
     const filePath = path.join(listingsDir, `${file}.json`);
 
     if (!fs.existsSync(filePath)) {

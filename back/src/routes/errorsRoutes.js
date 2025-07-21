@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     try {
-        const filePath = path.join(process.cwd(), 'src/temp/errors/errors_matching_events.json');
+        const filePath = path.join(process.cwd(), 'back/src/temp/errors/errors_matching_events.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
         // Pagination
@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
 
 router.delete('/reset', (req, res) => {
     try {
-        const filePath = path.join(process.cwd(), 'src/temp/errors/errors_matching_events.json');
+        const filePath = path.join(process.cwd(), 'back/src/temp/errors/errors_matching_events.json');
 
         // Réinitialiser le fichier à un tableau JSON vide
         fs.writeFileSync(filePath, '[]', 'utf8');

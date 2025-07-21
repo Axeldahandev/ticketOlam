@@ -128,7 +128,7 @@ export async function getTicketmasterSessionCookies() {
         let browser = null;
         try {
             browser = await puppeteer.launch({
-                headless: false,
+                headless: true,
                 args: launchArgs,
                 defaultViewport: { width: 1200, height: 800 },
                 userDataDir: `/tmp/puppeteer_${Date.now()}_${Math.random()}`

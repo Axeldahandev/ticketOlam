@@ -16,7 +16,7 @@ puppeteer.use(StealthPlugin());
 const get_viagogo_cookies = async (req, res, next) => {
     try {
         const browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
             args: ["--no-sandbox", "--disable-setuid-sandbox"]
         });
         const page = await browser.newPage();
@@ -33,8 +33,10 @@ const get_viagogo_cookies = async (req, res, next) => {
             await new Promise(resolve => setTimeout(resolve, 500));
             await page.waitForSelector('#Login_UserName');
             await page.waitForSelector('#Login_Password');
-            await page.type('#Login_UserName', "davseb94@gmail.com");
-            await page.type('#Login_Password', "2%Yq@+YMgM8%Rbb");
+            // await page.type('#Login_UserName', "davseb94@gmail.com");
+            // await page.type('#Login_Password', "2%Yq@+YMgM8%Rbb");
+            await page.type('#Login_UserName', "ticketomlam@gmail.com");
+            await page.type('#Login_Password', "TW79wZS4%iZG_xi");
             await page.click('#sbmt');
             await page.waitForNavigation({ waitUntil: "networkidle2" });
             await new Promise(resolve => setTimeout(resolve, 1000));
@@ -123,7 +125,7 @@ const sale_tickets_on_viagogo_from_json_files = async (req, res, next) => {
         return;
     }
 
-    const tempDir = path.join(process.cwd(), "./src/temp");
+    const tempDir = path.join(process.cwd(), "back/src/temp");
     const listingFiles = fs.readdirSync(tempDir)
         .filter(file => file.startsWith("listings_viagogo_") && file.endsWith(".json"))
         .reverse();
@@ -362,7 +364,7 @@ const sale_tickets_on_viagogo_from_json_files = async (req, res, next) => {
                                 viagogo_event: matchedEvent,
                             };
 
-                            const errorFilePath = path.join(process.cwd(), "./src/temp/errors/errors_matching_events.json");
+                            const errorFilePath = path.join(process.cwd(), "back/src/temp/errors/errors_matching_events.json");
                             let existingErrors = [];
 
                             try {

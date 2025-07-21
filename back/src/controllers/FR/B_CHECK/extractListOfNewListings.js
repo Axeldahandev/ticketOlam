@@ -166,7 +166,7 @@ const extractAndFilterListings = async (req, res, next) => {
       .filter(ev => ev.listings.length > 0);
 
     // 7. Crée le dossier temp si besoin
-    const tempDir = path.join(process.cwd(), "./src/temp");
+    const tempDir = path.join(process.cwd(), "back/src/temp");
     if (!fs.existsSync(tempDir)) {
       fs.mkdirSync(tempDir, { recursive: true });
     }

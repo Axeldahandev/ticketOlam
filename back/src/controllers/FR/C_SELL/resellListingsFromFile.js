@@ -15,7 +15,7 @@ puppeteer.use(StealthPlugin());
 const get_viagogo_cookies = async () => {
   try {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
     const page = await browser.newPage();
@@ -325,7 +325,7 @@ const resellListingsFromFile = async (fileName) => {
             viagogo_event: matchedEvent,
           };
 
-          const errorFilePath = path.join(process.cwd(), "./src/temp/errors/errors_matching_events.json");
+          const errorFilePath = path.join(process.cwd(), "back/src/temp/errors/errors_matching_events.json");
           let existingErrors = [];
 
           try {

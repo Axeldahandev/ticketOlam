@@ -1,6 +1,6 @@
 [
   {
-    "event_id": "687e1fe39a2c2542f6ed6160",
+    "event_id": "687e2928e0746e9d2dafdebd",
     "ticketmaster_id": "rZ7SnyZ1Ad0EPF",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/le-roi-soleil-billet/idmanif/604737/idtier/18864121",
     "event_name": "LE ROI SOLEIL",
@@ -14,7 +14,7 @@
     "listings": [
       {
         "zone_label": "CATEGORIE 1",
-        "nbPlaces": 328,
+        "nbPlaces": 329,
         "price": 70,
         "listingPrice": 84,
         "max_buy": 20,
@@ -35,7 +35,7 @@
       },
       {
         "zone_label": "HF",
-        "nbPlaces": 61,
+        "nbPlaces": 62,
         "price": 70,
         "listingPrice": 84,
         "max_buy": 20,
@@ -108,14 +108,197 @@
         "date_seance": "2026-01-24T15:00:00.000+01:00",
         "type": "category"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:15:35.216Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:15:35.216Z"
+    ]
   },
   {
-    "event_id": "687e1fe39a2c2542f6ed6160",
+    "event_id": "687e2928e0746e9d2dafdebd",
+    "ticketmaster_id": "rZ7SnyZ1Ad0EPF",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/le-roi-soleil-billet/idmanif/604737/idtier/18864121",
+    "event_name": "LE ROI SOLEIL",
+    "date_seance": "2026-01-24T20:30:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 140,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 55,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 54,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 548,
+        "price": 73,
+        "listingPrice": 87.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 134,
+        "price": 73,
+        "listingPrice": 87.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 100,
+        "price": 73,
+        "listingPrice": 87.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 70,
+        "price": 73,
+        "listingPrice": 87.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 88,
+        "price": 73,
+        "listingPrice": 87.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 133,
+        "price": 73,
+        "listingPrice": 87.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 222,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 52,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 117,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 53,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 114,
+        "price": 35,
+        "listingPrice": 42,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GA",
+        "nbPlaces": 51,
+        "price": 35,
+        "listingPrice": 42,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "II",
+        "nbPlaces": 51,
+        "price": 35,
+        "listingPrice": 42,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-24T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      }
+    ]
+  },
+  {
+    "event_id": "687e2928e0746e9d2dafdebd",
     "ticketmaster_id": "rZ7SnyZ1Ad0EPF",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/le-roi-soleil-billet/idmanif/604737/idtier/18864121",
     "event_name": "LE ROI SOLEIL",
@@ -310,14 +493,188 @@
         "date_seance": "2026-01-25T15:00:00.000+01:00",
         "type": "category"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:15:51.900Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:15:51.900Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed616c",
+    "event_id": "687e292ae0746e9d2dafdec6",
+    "ticketmaster_id": "rZ7SnyZ1Adx9_k",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/gojira-billet/idmanif/600046/idtier/18864121",
+    "event_name": "GOJIRA",
+    "date_seance": "2025-12-06T19:30:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 1074,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DA",
+        "nbPlaces": 155,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DB",
+        "nbPlaces": 103,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FH",
+        "nbPlaces": 102,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FI",
+        "nbPlaces": 150,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GB",
+        "nbPlaces": 77,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 125,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 117,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IH",
+        "nbPlaces": 77,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 586,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GA",
+        "nbPlaces": 95,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "II",
+        "nbPlaces": 91,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 60,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 126,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 54,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-06T19:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ae0746e9d2dafdec9",
     "ticketmaster_id": "rZ7SnyZ1A7Zs4g",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/marvel-infinity-saga-billet/idmanif/614173/idtier/18864121",
     "event_name": "MARVEL INFINITY SAGA",
@@ -512,14 +869,10 @@
         "date_seance": "2026-03-27T20:00:00.000+01:00",
         "type": "category"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:16:10.927Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:16:10.926Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed616f",
+    "event_id": "687e292ae0746e9d2dafdecc",
     "ticketmaster_id": "rZ7SnyZ1A77MqU",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/greg-petras-billet/idmanif/631282/idtier/18864121",
     "event_name": "GREG PETRAS",
@@ -693,14 +1046,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:16:13.428Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:16:13.428Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed6172",
+    "event_id": "687e292ae0746e9d2dafdecf",
     "ticketmaster_id": "rZ7SnyZ1Ad0d00",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/les-annees-80-billet/idmanif/601200/idtier/18864121",
     "event_name": "LES ANNEES 80 - Les Années 80",
@@ -841,14 +1190,352 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:16:15.564Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:16:15.564Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed6181",
+    "event_id": "687e292ae0746e9d2dafded2",
+    "ticketmaster_id": "rZ7SnyZ1A7Zxv9",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/vitaa-billet/idmanif/554625/idtier/18864121",
+    "event_name": "VITAA",
+    "date_seance": "2025-10-26T18:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 1070,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 80,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 59,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 58,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 80,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 91,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 96,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 62,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 97,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 105,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 91,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 112,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 132,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 948,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 58,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 103,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 164,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 118,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 203,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 138,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 164,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 269,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 119,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 166,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-10-26T18:00:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ae0746e9d2dafded5",
+    "ticketmaster_id": "rZ7SnyZ1Ad0Yk3",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/helena-billet/idmanif/605127/idtier/18864121",
+    "event_name": "HELENA",
+    "date_seance": "2025-11-27T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE OR",
+        "nbPlaces": 124,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-27T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 202,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-27T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 90,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-27T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1025,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-27T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1025,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-27T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292be0746e9d2dafdede",
     "ticketmaster_id": "rZ7SnyZ1A7vPQa",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/poetic-lover-tour-billet/idmanif/617541/idtier/18864121",
     "event_name": "POETIC LOVER TOUR",
@@ -881,14 +1568,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE UNIQUE"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:16:59.935Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:16:59.935Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed6184",
+    "event_id": "687e292be0746e9d2dafdee1",
     "ticketmaster_id": "rZ7SnyZ1Ad0FCA",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/louane-billet/idmanif/602344/idtier/18864121",
     "event_name": "LOUANE",
@@ -942,14 +1625,10 @@
         "type": "zone",
         "category_mere": "DEBOUT"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:17:02.063Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:17:02.063Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed6187",
+    "event_id": "687e292be0746e9d2dafdee4",
     "ticketmaster_id": "rZ7SnyZ1A7eZ-7",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/calema-billet/idmanif/620077/idtier/18864121",
     "event_name": "CALEMA",
@@ -961,6 +1640,27 @@
       "postal_code": "13004"
     },
     "listings": [
+      {
+        "zone_label": "CATEGORIE OR",
+        "nbPlaces": 371,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 86,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
       {
         "zone_label": "BD",
         "nbPlaces": 62,
@@ -982,12 +1682,661 @@
         "date_seance": "2026-02-19T20:00:00.000+01:00",
         "type": "zone",
         "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 62,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 434,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 69,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 78,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 70,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 85,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 78,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 236,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 58,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 116,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 62,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-19T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
       }
-    ],
-    "found_on_viagogo": true
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed6196",
+    "event_id": "687e292be0746e9d2dafdee7",
+    "ticketmaster_id": "rZ7SnyZ1A77Y-b",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/mika-billet/idmanif/629864/idtier/18864121",
+    "event_name": "MIKA",
+    "date_seance": "2026-02-26T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 238,
+        "price": 88,
+        "listingPrice": 105.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 89,
+        "price": 88,
+        "listingPrice": 105.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 481,
+        "price": 77,
+        "listingPrice": 92.39999999999999,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 109,
+        "price": 77,
+        "listingPrice": 92.39999999999999,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 98,
+        "price": 77,
+        "listingPrice": 92.39999999999999,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 73,
+        "price": 77,
+        "listingPrice": 92.39999999999999,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 102,
+        "price": 77,
+        "listingPrice": 92.39999999999999,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 99,
+        "price": 77,
+        "listingPrice": 92.39999999999999,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 376,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 60,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 252,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 64,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1076,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1076,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-02-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292be0746e9d2dafdeea",
+    "ticketmaster_id": "rZ7SnyZ1A7vpO3",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/santa-billet/idmanif/615977/idtier/18864121",
+    "event_name": "SANTA",
+    "date_seance": "2026-03-31T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 307,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 79,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 79,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 86,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 228,
+        "price": 35,
+        "listingPrice": 42,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1921,
+        "price": 30,
+        "listingPrice": 36,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1921,
+        "price": 30,
+        "listingPrice": 36,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-31T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292be0746e9d2dafdeed",
+    "ticketmaster_id": "rZ7SnyZ1AdJ3Ff",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/lorie-billet/idmanif/609737/idtier/18864121",
+    "event_name": "LORIE",
+    "date_seance": "2026-05-29T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 325,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 95,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 61,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 64,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 92,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 355,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 62,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 248,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1312,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1312,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-05-29T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292be0746e9d2dafdef0",
+    "ticketmaster_id": "rZ7SnyZ1AdxepA",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/amir-c-tour-billet/idmanif/595645/idtier/18864121",
+    "event_name": "AMIR - C TOUR",
+    "date_seance": "2025-11-29T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 162,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 72,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 74,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 513,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 72,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 65,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 84,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 82,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 80,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 84,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 282,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 60,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 185,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292be0746e9d2dafdef3",
     "ticketmaster_id": "rZ7SnyZ1AdqPjE",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/carmina-burana-billet/idmanif/575065/idtier/18864121",
     "event_name": "CARMINA BURANA",
@@ -1194,14 +2543,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:20:19.346Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:20:19.346Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed6199",
+    "event_id": "687e292be0746e9d2dafdef6",
     "ticketmaster_id": "rZ7SnyZ1AdJ34E",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/nino-arial-billet/idmanif/609885/idtier/18864121",
     "event_name": "NINO ARIAL",
@@ -1234,14 +2579,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:20:21.647Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:20:21.647Z"
+    ]
   },
   {
-    "event_id": "687e1fe49a2c2542f6ed619c",
+    "event_id": "687e292be0746e9d2dafdef9",
     "ticketmaster_id": "rZ7SnyZ1A7Z_GA",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/elena-nagapetyan-billet/idmanif/612759/idtier/18864121",
     "event_name": "ELENA NAGAPETYAN",
@@ -1255,7 +2596,7 @@
     "listings": [
       {
         "zone_label": "CARRE OR",
-        "nbPlaces": 266,
+        "nbPlaces": 268,
         "price": 48,
         "listingPrice": 57.599999999999994,
         "max_buy": 20,
@@ -1415,14 +2756,121 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:20:24.517Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:20:24.517Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61a5",
+    "event_id": "687e292be0746e9d2dafdeff",
+    "ticketmaster_id": "rZ7SnyZ1AdP8v6",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/fabrice-eboue-billet/idmanif/606571/idtier/18864121",
+    "event_name": "FABRICE EBOUE",
+    "date_seance": "2026-02-28T20:30:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 178,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1A",
+        "nbPlaces": 58,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV3G",
+        "nbPlaces": 56,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 288,
+        "price": 42,
+        "listingPrice": 50.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GB",
+        "nbPlaces": 84,
+        "price": 42,
+        "listingPrice": 50.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IH",
+        "nbPlaces": 86,
+        "price": 42,
+        "listingPrice": 50.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 174,
+        "price": 36,
+        "listingPrice": 43.199999999999996,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GA",
+        "nbPlaces": 80,
+        "price": 36,
+        "listingPrice": 43.199999999999996,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "II",
+        "nbPlaces": 73,
+        "price": 36,
+        "listingPrice": 43.199999999999996,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-02-28T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ce0746e9d2dafdf02",
     "ticketmaster_id": "rZ7SnyZ1A7e6b9",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/messmer-13hz-billet/idmanif/621658/idtier/18864121",
     "event_name": "MESSMER - 13Hz",
@@ -1684,14 +3132,306 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:20:37.012Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:20:37.012Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61ab",
+    "event_id": "687e292ce0746e9d2dafdf05",
+    "ticketmaster_id": "rZ7SnyZ1Ad0NQZ",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/black-legends-billet/idmanif/603804/idtier/18864121",
+    "event_name": "Black Legends",
+    "date_seance": "2026-03-29T18:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 791,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 93,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 104,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 103,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 85,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 104,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 106,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 117,
+        "price": 86,
+        "listingPrice": 103.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 830,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 55,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 77,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 79,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 116,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 58,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 98,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 122,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 72,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 72,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 586,
+        "price": 54,
+        "listingPrice": 64.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 132,
+        "price": 54,
+        "listingPrice": 64.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 109,
+        "price": 54,
+        "listingPrice": 64.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 155,
+        "price": 54,
+        "listingPrice": 64.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 275,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 177,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 54,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "CATEGORIE 4",
+        "nbPlaces": 130,
+        "price": 25,
+        "listingPrice": 30,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-29T18:00:00.000+02:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ce0746e9d2dafdf08",
     "ticketmaster_id": "rZ7SnyZ1A7eaFP",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/irish-celtic-billet/idmanif/622097/idtier/18864121",
     "event_name": "IRISH CELTIC",
@@ -1876,14 +3616,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:21:29.878Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:21:29.878Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61ae",
+    "event_id": "687e292ce0746e9d2dafdf0b",
     "ticketmaster_id": "rZ7SnyZ1A7Zb1Z",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/murmuration-level-2-billet/idmanif/612535/idtier/18864121",
     "event_name": "MURMURATION LEVEL 2",
@@ -2155,14 +3891,10 @@
         "date_seance": "2026-04-25T20:30:00.000+02:00",
         "type": "category"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:21:34.104Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:21:34.104Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61b1",
+    "event_id": "687e292ce0746e9d2dafdf0e",
     "ticketmaster_id": "rZ7SnyZ1A7ekAK",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/pat-patrouille-le-spectacle-billet/idmanif/621301/idtier/18864121",
     "event_name": "PAT PATROUILLE LE SPECTACLE !",
@@ -2346,14 +4078,10 @@
         "date_seance": "2026-04-11T14:00:00.000+02:00",
         "type": "category"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:21:37.290Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:21:37.290Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61b1",
+    "event_id": "687e292ce0746e9d2dafdf0e",
     "ticketmaster_id": "rZ7SnyZ1A7ekAK",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/pat-patrouille-le-spectacle-billet/idmanif/621301/idtier/18864121",
     "event_name": "PAT PATROUILLE LE SPECTACLE !",
@@ -2559,14 +4287,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 3"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:21:39.429Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:21:39.429Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61b7",
+    "event_id": "687e292ce0746e9d2dafdf14",
     "ticketmaster_id": "rZ7SnyZ1AdPoAI",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/monte-cristo-billet/idmanif/606836/idtier/18864121",
     "event_name": "MONTE CRISTO",
@@ -2828,14 +4552,884 @@
         "date_seance": "2027-01-09T15:00:00.000+01:00",
         "type": "category"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:21:41.336Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:21:41.336Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61c9",
+    "event_id": "687e292ce0746e9d2dafdf14",
+    "ticketmaster_id": "rZ7SnyZ1AdPoAI",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/monte-cristo-billet/idmanif/606836/idtier/18864121",
+    "event_name": "MONTE CRISTO",
+    "date_seance": "2027-01-09T20:30:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE OR",
+        "nbPlaces": 852,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 122,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 109,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 122,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 88,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 64,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 112,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 62,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P3",
+        "nbPlaces": 73,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 100,
+        "price": 89,
+        "listingPrice": 106.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 908,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 86,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 84,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 91,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 101,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 92,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 80,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 68,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 74,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 122,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 80,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 78,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 126,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-01-09T20:30:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ce0746e9d2dafdf1a",
+    "ticketmaster_id": "rZ7SnyZ1A7v_b-",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/marine-leonardi-billet/idmanif/616508/idtier/18864121",
+    "event_name": "MARINE LEONARDI",
+    "date_seance": "2027-02-20T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 604,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 55,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 108,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 64,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 76,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 108,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 75,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 66,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 602,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 58,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 72,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 76,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 72,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 54,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 168,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 54,
+        "price": 47,
+        "listingPrice": 56.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 90,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-02-20T20:00:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ce0746e9d2dafdf1d",
+    "ticketmaster_id": "rZ7SnyZ1A7edrb",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/thomas-marty-billet/idmanif/620545/idtier/18864121",
+    "event_name": "THOMAS MARTY",
+    "date_seance": "2027-03-14T17:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 760,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 75,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 112,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 64,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 112,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 112,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 90,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P3",
+        "nbPlaces": 69,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 78,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 454,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 122,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 74,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 94,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 116,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 360,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 64,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 272,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2027-03-14T17:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ce0746e9d2dafdf20",
+    "ticketmaster_id": "rZ7SnyZ1AdrFvp",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/lara-fabian-billet/idmanif/578801/idtier/18864121",
+    "event_name": "LARA FABIAN",
+    "date_seance": "2025-10-19T18:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 725,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1A",
+        "nbPlaces": 117,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV3G",
+        "nbPlaces": 115,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AA",
+        "nbPlaces": 50,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AB",
+        "nbPlaces": 112,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CH",
+        "nbPlaces": 108,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CI",
+        "nbPlaces": 50,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "P1",
+        "nbPlaces": 73,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "P5",
+        "nbPlaces": 84,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 1099,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DA",
+        "nbPlaces": 153,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "DB",
+        "nbPlaces": 110,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "FH",
+        "nbPlaces": 110,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "FI",
+        "nbPlaces": 155,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "GA",
+        "nbPlaces": 97,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "GB",
+        "nbPlaces": 171,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IH",
+        "nbPlaces": 171,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "II",
+        "nbPlaces": 98,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-19T18:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292de0746e9d2dafdf26",
     "ticketmaster_id": "rZ7SnyZ1AdPKoP",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/gazo-billet/idmanif/607356/idtier/18864121",
     "event_name": "GAZO",
@@ -2890,6 +5484,16 @@
         "category_mere": "DEBOUT EARLY"
       },
       {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 939,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-07T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
         "zone_label": "FOSSE DEBT",
         "nbPlaces": 939,
         "price": 50,
@@ -2900,11 +5504,10 @@
         "type": "zone",
         "category_mere": "DEBOUT"
       }
-    ],
-    "found_on_viagogo": true
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61cc",
+    "event_id": "687e292de0746e9d2dafdf29",
     "ticketmaster_id": "rZ7SnyZ1A7Zb4A",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/naruto-shippuden-symphonic-experience-billet/idmanif/612609/idtier/18864121",
     "event_name": "NARUTO SHIPPUDEN SYMPHONIC EXPERIENCE - NARUTO SHIPPUDEN",
@@ -3176,14 +5779,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 3"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:23:13.330Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:23:13.330Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61cf",
+    "event_id": "687e292de0746e9d2dafdf2c",
     "ticketmaster_id": "rZ7SnyZ1A7ZYjK",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/nej-billet/idmanif/614127/idtier/18864121",
     "event_name": "NEJ",
@@ -3424,7 +6023,7 @@
       },
       {
         "zone_label": "DEBOUT",
-        "nbPlaces": 724,
+        "nbPlaces": 723,
         "price": 39,
         "listingPrice": 46.8,
         "max_buy": 20,
@@ -3434,7 +6033,7 @@
       },
       {
         "zone_label": "PARTERRE",
-        "nbPlaces": 724,
+        "nbPlaces": 723,
         "price": 39,
         "listingPrice": 46.8,
         "max_buy": 20,
@@ -3443,14 +6042,111 @@
         "type": "zone",
         "category_mere": "DEBOUT"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:23:15.940Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:23:15.940Z"
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61d8",
+    "event_id": "687e292de0746e9d2dafdf2f",
+    "ticketmaster_id": "rZ7SnyZ1A7ZYFe",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/pierre-garnier-billet/idmanif/613929/idtier/18864121",
+    "event_name": "PIERRE GARNIER",
+    "date_seance": "2025-11-21T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 280,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 62,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 65,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 73,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 409,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 51,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 143,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 54,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292de0746e9d2dafdf35",
     "ticketmaster_id": "rZ7SnyZ1A77s-w",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/soprano-billet/idmanif/629943/idtier/18864121",
     "event_name": "SOPRANO",
@@ -3463,6 +6159,70 @@
     },
     "listings": [
       {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 398,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DA",
+        "nbPlaces": 78,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FI",
+        "nbPlaces": 60,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 53,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 199,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 106,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
         "zone_label": "EARLY ENTRANCE",
         "nbPlaces": 415,
         "price": 45,
@@ -3482,12 +6242,32 @@
         "date_seance": "2025-11-25T20:00:00.000+01:00",
         "type": "zone",
         "category_mere": "EARLY ENTRANCE"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1295,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1295,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-25T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
       }
-    ],
-    "found_on_viagogo": true
+    ]
   },
   {
-    "event_id": "687e1fe59a2c2542f6ed61d8",
+    "event_id": "687e292de0746e9d2dafdf35",
     "ticketmaster_id": "rZ7SnyZ1A77s-w",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/soprano-billet/idmanif/629943/idtier/18864121",
     "event_name": "SOPRANO",
@@ -3500,6 +6280,146 @@
     },
     "listings": [
       {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 233,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 84,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 64,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 537,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 151,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 104,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 97,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 96,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 89,
+        "price": 61,
+        "listingPrice": 73.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 416,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 64,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 288,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 64,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
         "zone_label": "EARLY ENTRANCE",
         "nbPlaces": 444,
         "price": 45,
@@ -3519,12 +6439,1589 @@
         "date_seance": "2025-11-26T20:00:00.000+01:00",
         "type": "zone",
         "category_mere": "EARLY ENTRANCE"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1536,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1536,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-26T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
       }
-    ],
-    "found_on_viagogo": true
+    ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed61f3",
+    "event_id": "687e292de0746e9d2dafdf3b",
+    "ticketmaster_id": "rZ7SnyZ1A7e7_J",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/david-hallyday-billet/idmanif/620878/idtier/18864121",
+    "event_name": "DAVID HALLYDAY",
+    "date_seance": "2025-11-30T18:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE OR",
+        "nbPlaces": 767,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 122,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 53,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 122,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 96,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 93,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 112,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 58,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 62,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 872,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 73,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 70,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 89,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 99,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 90,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 84,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 94,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 122,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 50,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 80,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 160,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 160,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-11-30T18:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf3e",
+    "ticketmaster_id": "rZ7SnyZ1Ad0gCb",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/lara-fabian-billet/idmanif/605672/idtier/18864121",
+    "event_name": "LARA FABIAN",
+    "date_seance": "2026-03-20T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 806,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 79,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 90,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 128,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 114,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 130,
+        "price": 95,
+        "listingPrice": 114,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 744,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 63,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 132,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 123,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 155,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 126,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 124,
+        "price": 75,
+        "listingPrice": 90,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 161,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 99,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 80,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-20T20:00:00.000+01:00",
+        "type": "category"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf41",
+    "ticketmaster_id": "rZ7SnyZ1AdxKux",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/kendji-girac-billet/idmanif/599423/idtier/18864121",
+    "event_name": "KENDJI GIRAC",
+    "date_seance": "2026-03-21T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 385,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AB",
+        "nbPlaces": 58,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CH",
+        "nbPlaces": 62,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DB",
+        "nbPlaces": 122,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FH",
+        "nbPlaces": 119,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 921,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DA",
+        "nbPlaces": 144,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "FI",
+        "nbPlaces": 146,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "GA",
+        "nbPlaces": 97,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "GB",
+        "nbPlaces": 167,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IH",
+        "nbPlaces": 155,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "II",
+        "nbPlaces": 98,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-21T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf44",
+    "ticketmaster_id": "rZ7SnyZ1A7vJ1d",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/jimmy-sax-billet/idmanif/617779/idtier/18864121",
+    "event_name": "JIMMY SAX",
+    "date_seance": "2026-04-04T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 183,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 90,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 77,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 582,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 96,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 50,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 86,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 96,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 103,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 96,
+        "price": 45,
+        "listingPrice": 54,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 199,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GA",
+        "nbPlaces": 57,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IH",
+        "nbPlaces": 59,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "II",
+        "nbPlaces": 83,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-04-04T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf47",
+    "ticketmaster_id": "rZ7SnyZ1A7v7Oe",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/amel-bent-billet/idmanif/614952/idtier/18864121",
+    "event_name": "AMEL BENT",
+    "date_seance": "2026-04-18T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 953,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 83,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 76,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 83,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 115,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 85,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 105,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 80,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 98,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 109,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 75,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 466,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 62,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 119,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 111,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 82,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 92,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 783,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 134,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 138,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 211,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 166,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 134,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 402,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 56,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 290,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 56,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2026-04-18T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf4a",
+    "ticketmaster_id": "rZ7SnyZ1A7eZvv",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/generation-celine-billet/idmanif/619831/idtier/18864121",
+    "event_name": "GENERATION CELINE",
+    "date_seance": "2026-10-01T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE OR",
+        "nbPlaces": 858,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 128,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 59,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 128,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 80,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 112,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 112,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 70,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P3",
+        "nbPlaces": 85,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 84,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 1072,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 86,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 80,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 84,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 85,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 92,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 72,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 116,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 123,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 122,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 98,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 66,
+        "price": 67,
+        "listingPrice": 80.39999999999999,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 125,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 61,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 64,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-01T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf4d",
+    "ticketmaster_id": "rZ7SnyZ1Ad0f8f",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/the-jeff-panacloc-company-billet/idmanif/603080/idtier/18864121",
+    "event_name": "THE JEFF PANACLOC COMPANY",
+    "date_seance": "2026-10-15T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 745,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 101,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 113,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 96,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 102,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 64,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 96,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 91,
+        "price": 70,
+        "listingPrice": 84,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 585,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 89,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 67,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 109,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 118,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 72,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 50,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 80,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 252,
+        "price": 35,
+        "listingPrice": 42,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 252,
+        "price": 35,
+        "listingPrice": 42,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf50",
     "ticketmaster_id": "rZ7SnyZ1A7vM_x",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/le-lac-des-cygnes-ballet-et-orchestre-billet/idmanif/619451/idtier/18864121",
     "event_name": "LE LAC DES CYGNES - BALLET ET ORCHESTRE - LE LAC DES CYGNES",
@@ -3742,14 +8239,1061 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:25:56.250Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:25:56.250Z"
+    ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed620b",
+    "event_id": "687e292ee0746e9d2dafdf56",
+    "ticketmaster_id": "rZ7SnyZ1Adxep4",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/amir-c-tour-billet/idmanif/595656/idtier/18864121",
+    "event_name": "AMIR - C TOUR - C AMIR TOUR",
+    "date_seance": "2025-11-29T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 162,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 72,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 74,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 513,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 72,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 65,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 84,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 82,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 80,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 84,
+        "price": 50,
+        "listingPrice": 60,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 282,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 60,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 185,
+        "price": 38,
+        "listingPrice": 45.6,
+        "max_buy": 6,
+        "devise": "EUR",
+        "date_seance": "2025-11-29T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf59",
+    "ticketmaster_id": "rZ7SnyZ1A7ZEap",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/marie-s-infiltre-billet/idmanif/613605/idtier/18864121",
+    "event_name": "MARIE S'INFILTRE",
+    "date_seance": "2025-12-11T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 317,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-11T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 64,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-11T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 59,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-11T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 60,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-12-11T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf5c",
+    "ticketmaster_id": "rZ7SnyZ1A77AvO",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/stars-80-forever-billet/idmanif/624748/idtier/18864121",
+    "event_name": "STARS 80 - FOREVER",
+    "date_seance": "2026-03-06T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 472,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 105,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 101,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 123,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 96,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 773,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 69,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 77,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 81,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 86,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 94,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 99,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 96,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 86,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 172,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 64,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 97,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-06T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf5f",
+    "ticketmaster_id": "rZ7SnyZ1Adxob6",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/mania-the-abba-tribute-billet/idmanif/598945/idtier/18864121",
+    "event_name": "MANIA, THE ABBA TRIBUTE",
+    "date_seance": "2025-10-10T20:30:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 359,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 73,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 65,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 77,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 63,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 850,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 76,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 73,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 67,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 105,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 86,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 94,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 93,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 100,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 56,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 212,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 209,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-10T20:30:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf62",
+    "ticketmaster_id": "rZ7SnyZ1AdJ_C3",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/the-dire-straits-experience-billet/idmanif/609978/idtier/18864121",
+    "event_name": "THE DIRE STRAITS EXPERIENCE",
+    "date_seance": "2025-10-15T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 251,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 57,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 57,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 55,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 71,
+        "price": 85,
+        "listingPrice": 102,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 650,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 117,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 120,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 112,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 116,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 110,
+        "price": 74,
+        "listingPrice": 88.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 480,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 90,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 109,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 103,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 100,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 78,
+        "price": 63,
+        "listingPrice": 75.6,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 340,
+        "price": 46.5,
+        "listingPrice": 55.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 63,
+        "price": 46.5,
+        "listingPrice": 55.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 229,
+        "price": 46.5,
+        "listingPrice": 55.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-15T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf65",
+    "ticketmaster_id": "rZ7SnyZ1Ad-fFe",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/la-fouine-billet/idmanif/589351/idtier/18864121",
+    "event_name": "LA FOUINE",
+    "date_seance": "2026-01-20T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 644,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 66,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 122,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 110,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 67,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 112,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 122,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 547,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 82,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 114,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 104,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 92,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 155,
+        "price": 55,
+        "listingPrice": 66,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 353,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 64,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 273,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "DEBOUT",
+        "nbPlaces": 1372,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "PARTERRE",
+        "nbPlaces": 1372,
+        "price": 40,
+        "listingPrice": 48,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-20T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "DEBOUT"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292ee0746e9d2dafdf68",
     "ticketmaster_id": "rZ7SnyZ1A7e9Av",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/dj-kore-20-ans-rai-n-b-fever-billet/idmanif/623074/idtier/18864121",
     "event_name": "DJ KORE - 20 ans RAI'N'B FEVER",
@@ -3806,7 +9350,7 @@
       },
       {
         "zone_label": "DEBOUT",
-        "nbPlaces": 1470,
+        "nbPlaces": 1467,
         "price": 40,
         "listingPrice": 48,
         "max_buy": 20,
@@ -3816,7 +9360,7 @@
       },
       {
         "zone_label": "PARTERRE",
-        "nbPlaces": 1470,
+        "nbPlaces": 1467,
         "price": 40,
         "listingPrice": 48,
         "max_buy": 20,
@@ -3828,7 +9372,7 @@
     ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed620e",
+    "event_id": "687e292ee0746e9d2dafdf6b",
     "ticketmaster_id": "rZ7SnyZ1A77sF9",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/electro-symphony-vol2-billet/idmanif/629874/idtier/18864121",
     "event_name": "ELECTRO SYMPHONY VOL.2",
@@ -3971,7 +9515,7 @@
     ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed6211",
+    "event_id": "687e292ee0746e9d2dafdf6e",
     "ticketmaster_id": "rZ7SnyZ1A7vMAJ",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/la-legende-de-monte-cristo-billet/idmanif/619328/idtier/18864121",
     "event_name": "LA LEGENDE DE MONTE-CRISTO - LA LEGENDE DE MONTE-CRISTO, Le Musical",
@@ -4202,7 +9746,7 @@
     ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed6214",
+    "event_id": "687e292ee0746e9d2dafdf71",
     "ticketmaster_id": "rZ7SnyZ1Adro8d",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/goldmen-concert-100pour100-goldman-billet/idmanif/579380/idtier/18864121",
     "event_name": "GOLDMEN - CONCERT 100% GOLDMAN - GOLDMEN",
@@ -4215,6 +9759,93 @@
     },
     "listings": [
       {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 941,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 83,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 102,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 84,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 105,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 64,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 90,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 102,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
         "zone_label": "CG",
         "nbPlaces": 75,
         "price": 59,
@@ -4224,12 +9855,130 @@
         "date_seance": "2026-11-28T20:00:00.000+01:00",
         "type": "zone",
         "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 94,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 60,
+        "price": 59,
+        "listingPrice": 70.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 507,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 73,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HD",
+        "nbPlaces": 84,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HE",
+        "nbPlaces": 88,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "HF",
+        "nbPlaces": 84,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 340,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 64,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 213,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 63,
+        "price": 44,
+        "listingPrice": 52.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-11-28T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
       }
-    ],
-    "found_on_viagogo": true
+    ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed6217",
+    "event_id": "687e292fe0746e9d2dafdf74",
     "ticketmaster_id": "rZ7SnyZ1A77xjZ",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/djadja-dinaz-billet/idmanif/628509/idtier/18864121",
     "event_name": "DJADJA & DINAZ",
@@ -4243,7 +9992,7 @@
     "listings": [
       {
         "zone_label": "CARRE OR",
-        "nbPlaces": 343,
+        "nbPlaces": 339,
         "price": 65,
         "listingPrice": 78,
         "max_buy": 20,
@@ -4340,7 +10089,7 @@
       },
       {
         "zone_label": "EARLY ENTRANCE",
-        "nbPlaces": 211,
+        "nbPlaces": 213,
         "price": 45,
         "listingPrice": 54,
         "max_buy": 20,
@@ -4350,7 +10099,7 @@
       },
       {
         "zone_label": "EARLY",
-        "nbPlaces": 211,
+        "nbPlaces": 213,
         "price": 45,
         "listingPrice": 54,
         "max_buy": 20,
@@ -4412,14 +10161,451 @@
         "type": "zone",
         "category_mere": "DEBOUT"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:28:46.480Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:28:46.480Z"
+    ]
   },
   {
-    "event_id": "687e1fe69a2c2542f6ed6220",
+    "event_id": "687e292fe0746e9d2dafdf77",
+    "ticketmaster_id": "rZ7SnyZ1AdP07p",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/drag-race-france-live-all-stars-billet/idmanif/608334/idtier/18864121",
+    "event_name": "DRAG RACE France LIVE ALL STARS",
+    "date_seance": "2025-10-09T20:00:00.000+02:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 363,
+        "price": 99,
+        "listingPrice": 118.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 70,
+        "price": 99,
+        "listingPrice": 118.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 68,
+        "price": 99,
+        "listingPrice": 118.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 74,
+        "price": 99,
+        "listingPrice": 118.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 78,
+        "price": 99,
+        "listingPrice": 118.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 70,
+        "price": 99,
+        "listingPrice": 118.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 232,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 89,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 85,
+        "price": 69,
+        "listingPrice": 82.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 421,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 68,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 54,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 154,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "L",
+        "nbPlaces": 54,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "CATEGORIE 3",
+        "nbPlaces": 223,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "GB",
+        "nbPlaces": 68,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      },
+      {
+        "zone_label": "IH",
+        "nbPlaces": 75,
+        "price": 39,
+        "listingPrice": 46.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2025-10-09T20:00:00.000+02:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 3"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292fe0746e9d2dafdf7a",
+    "ticketmaster_id": "rZ7SnyZ1A7Z8b0",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/one-night-of-queen-billet/idmanif/611743/idtier/18864121",
+    "event_name": "ONE NIGHT OF QUEEN",
+    "date_seance": "2026-01-07T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CATEGORIE OR",
+        "nbPlaces": 633,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2C",
+        "nbPlaces": 94,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 90,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 87,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 81,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 105,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 80,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 83,
+        "price": 79,
+        "listingPrice": 94.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 855,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV1B",
+        "nbPlaces": 65,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AV3F",
+        "nbPlaces": 65,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "AC",
+        "nbPlaces": 83,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CG",
+        "nbPlaces": 101,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 100,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 76,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EF",
+        "nbPlaces": 96,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 113,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "GC",
+        "nbPlaces": 50,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "IG",
+        "nbPlaces": 80,
+        "price": 66,
+        "listingPrice": 79.2,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 177,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 177,
+        "price": 49,
+        "listingPrice": 58.8,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-01-07T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292fe0746e9d2dafdf7d",
     "ticketmaster_id": "rZ7SnyZ1Adx64S",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/casse-noisette-ballet-et-orchestre-billet/idmanif/598611/idtier/18864121",
     "event_name": "CASSE-NOISETTE - BALLET ET ORCHESTRE - CASSE-NOISETTE",
@@ -4637,14 +10823,209 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "demande_envoyee_a_viagogo": true,
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:29:26.665Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:29:26.664Z"
+    ]
   },
   {
-    "event_id": "687e1fe79a2c2542f6ed6229",
+    "event_id": "687e292fe0746e9d2dafdf80",
+    "ticketmaster_id": "rZ7SnyZ1A7ek8x",
+    "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/gospel-pour-100-voix-billet/idmanif/621411/idtier/18864121",
+    "event_name": "GOSPEL POUR 100 VOIX",
+    "date_seance": "2026-03-14T20:00:00.000+01:00",
+    "venue": {
+      "name": "LE DOME MARSEILLE",
+      "city": "Marseille",
+      "country": "France",
+      "postal_code": "13004"
+    },
+    "listings": [
+      {
+        "zone_label": "CARRE OR",
+        "nbPlaces": 749,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "AV2D",
+        "nbPlaces": 71,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "AV2E",
+        "nbPlaces": 110,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BD",
+        "nbPlaces": 64,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BE",
+        "nbPlaces": 95,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "BF",
+        "nbPlaces": 109,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P2",
+        "nbPlaces": 96,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P3",
+        "nbPlaces": 74,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "P4",
+        "nbPlaces": 82,
+        "price": 65,
+        "listingPrice": 78,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CARRE OR"
+      },
+      {
+        "zone_label": "CATEGORIE 1",
+        "nbPlaces": 451,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "DC",
+        "nbPlaces": 120,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "ED",
+        "nbPlaces": 82,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "EE",
+        "nbPlaces": 87,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "FG",
+        "nbPlaces": 116,
+        "price": 52,
+        "listingPrice": 62.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 1"
+      },
+      {
+        "zone_label": "CATEGORIE 2",
+        "nbPlaces": 336,
+        "price": 42,
+        "listingPrice": 50.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "category"
+      },
+      {
+        "zone_label": "J",
+        "nbPlaces": 64,
+        "price": 42,
+        "listingPrice": 50.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      },
+      {
+        "zone_label": "K",
+        "nbPlaces": 236,
+        "price": 42,
+        "listingPrice": 50.4,
+        "max_buy": 20,
+        "devise": "EUR",
+        "date_seance": "2026-03-14T20:00:00.000+01:00",
+        "type": "zone",
+        "category_mere": "CATEGORIE 2"
+      }
+    ]
+  },
+  {
+    "event_id": "687e292fe0746e9d2dafdf86",
     "ticketmaster_id": "rZ7SnyZ1Ad0bpo",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/disney-en-concert-billet/idmanif/603689/idtier/18864121",
     "event_name": "DISNEY EN CONCERT - DISNEY EN CONCERT - AUTOUR DU MONDE",
@@ -4819,13 +11200,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 3"
       }
-    ],
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:29:53.826Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:29:53.826Z"
+    ]
   },
   {
-    "event_id": "687e1fe79a2c2542f6ed622c",
+    "event_id": "687e292fe0746e9d2dafdf89",
     "ticketmaster_id": "rZ7SnyZ1Ad0z34",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/luc-langevin-l-illusionniste-billet/idmanif/605910/idtier/18864121",
     "event_name": "LUC LANGEVIN – L'ILLUSIONNISTE - LUC LANGEVIN – L’ILLUSIONNISTE",
@@ -5109,13 +11487,10 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:29:56.353Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:29:56.353Z"
+    ]
   },
   {
-    "event_id": "687e1fe79a2c2542f6ed622f",
+    "event_id": "687e292fe0746e9d2dafdf8c",
     "ticketmaster_id": "rZ7SnyZ1A7Zxvk",
     "ticketmaster_url": "https://www.ticketmaster.fr/fr/manifestation/il-etait-une-foisennio-morricone-billet/idmanif/612931/idtier/18864121",
     "event_name": "IL ETAIT UNE FOIS...ENNIO MORRICONE - IL ETAIT UNE FOIS... ENNIO MORRICONE & NINO ROTA",
@@ -5259,7 +11634,7 @@
       },
       {
         "zone_label": "CATEGORIE 2",
-        "nbPlaces": 194,
+        "nbPlaces": 191,
         "price": 65,
         "listingPrice": 78,
         "max_buy": 20,
@@ -5291,7 +11666,7 @@
       },
       {
         "zone_label": "L",
-        "nbPlaces": 54,
+        "nbPlaces": 51,
         "price": 65,
         "listingPrice": 78,
         "max_buy": 20,
@@ -5300,9 +11675,6 @@
         "type": "zone",
         "category_mere": "CATEGORIE 2"
       }
-    ],
-    "found_on_viagogo": false,
-    "date_last_try_sale_on_viagogo": "2025-07-21T11:29:58.595Z",
-    "date_first_try_sale_on_viagogo": "2025-07-21T11:29:58.595Z"
+    ]
   }
 ]
