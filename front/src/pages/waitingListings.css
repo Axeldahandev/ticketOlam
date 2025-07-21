@@ -1,0 +1,156 @@
+.waiting-listings-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f3f6fa;
+    min-height: 100vh;
+    padding: 20px;
+}
+  
+  .title-page {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e3a8a;
+    text-align: center;
+}
+  
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #444;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  .info-text {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .error-text {
+    color: #cc0000;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  
+  ul.file-list,
+  ul.event-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .file-list li,
+  .event-list li {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-btn {
+    background-color: #6c757d;
+    margin-bottom: 25px;
+    max-width: 300px;
+
+  }
+  
+  .back-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .file-btn {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  }
+  
+  .event-btn {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .event-details {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    word-break: break-all;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .listings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .listings-table th,
+  .listings-table td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  .listings-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    position: relative;
+  }
+  
+  .modal-close-btn {
+    margin-top: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  

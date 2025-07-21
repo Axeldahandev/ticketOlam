@@ -1,7 +1,17 @@
 import Event from "../../../schemas/Event.js";
 import fs from "fs";
 import path from "path";
-import isEqual from "lodash/isEqual.js"; // npm install lodash
+
+// Fonction maison pour nettoyer le nom salle en slug propre
+function slugifyVenueName(name) {
+  if (!name) return "unknown";
+  return name
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // supprime accents
+    .replace(/[^a-z0-9]+/g, "-")                    // remplace non-alphanum par tiret
+    .replace(/^-+|-+$/g, "")                         // supprime tirets debut/fin
+    .replace(/-+/g, "-");                            // plusieurs tirets → un seul
+}
 
 const extractAndFilterListings = async (req, res, next) => {
   try {
@@ -14,8 +24,6 @@ const extractAndFilterListings = async (req, res, next) => {
         { "venue.country": "France" }
       ]
     });
-
-    // console.log(`ℹ️ [B1] [INFO] ${events.length} évènements non vérifiés pour la mise en vente sur Viagogo`);
 
     // 2. Détection stricte des doublons par tickets identiques (hors _id & infoCategories) et MAJ en DB
     const seen = {};
@@ -33,32 +41,31 @@ const extractAndFilterListings = async (req, res, next) => {
             status: true
           }));
           
-          const setObj = {
-            tickets: [{ Doublon: true }],
-            updated_at: new Date(),
-            original_ticketmaster_api_url: "",
-            website_url: "",
-            tickets_url: "",
-            viagogo_listings: [],
-            venue: {
-              name: "",
-              city: "",
-              country: "",
-              postal_code: ""
-            },
-            classifications: {
-              segment: "",
-              genre: "",
-              subgenre: ""
-            },
-            steps: newSteps
-          };
+        const setObj = {
+          tickets: [{ Doublon: true }],
+          updated_at: new Date(),
+          original_ticketmaster_api_url: "",
+          website_url: "",
+          tickets_url: "",
+          viagogo_listings: [],
+          venue: {
+            name: "",
+            city: "",
+            country: "",
+            postal_code: ""
+          },
+          classifications: {
+            segment: "",
+            genre: "",
+            subgenre: ""
+          },
+          steps: newSteps
+        };
           
-          await Event.updateOne(
-            { _id: event._id },
-            { $set: setObj }
-          );
-          
+        await Event.updateOne(
+          { _id: event._id },
+          { $set: setObj }
+        );
 
         doublons++;
       } else {
@@ -84,6 +91,7 @@ const extractAndFilterListings = async (req, res, next) => {
           groupedResults[groupKey] = {
             event_id: event._id,
             ticketmaster_id: event.ticketmaster_id,
+            ticketmaster_url: event.website_url,
             event_name: event.name,
             date_seance: dateSeance,
             venue: event.venue,
@@ -96,7 +104,7 @@ const extractAndFilterListings = async (req, res, next) => {
         for (const cat of ticket.infoCategories) {
           const catLabel = cat.llgCatPl || cat.llcCatPl || cat.codCatPl;
           if (cat.nbPlaces >= 80) {
-            if (catLabel && !groupedResults[groupKey]._catSet.has(catLabel) && cat.nbPlaces >= 80) {
+            if (catLabel && !groupedResults[groupKey]._catSet.has(catLabel)) {
               groupedResults[groupKey].listings.push({
                 zone_label: catLabel,
                 nbPlaces: cat.nbPlaces,
@@ -117,7 +125,7 @@ const extractAndFilterListings = async (req, res, next) => {
           for (const zone of cat.zones || []) {
             const zoneLabel = zone.llczone || zone.placementcatpl || zone.idzone;
             if (zone.nbplaces >= 50) {
-              if (zoneLabel && !groupedResults[groupKey]._zoneSet.has(zoneLabel) && zone.nbplaces >= 50) {
+              if (zoneLabel && !groupedResults[groupKey]._zoneSet.has(zoneLabel)) {
                 groupedResults[groupKey].listings.push({
                   zone_label: zoneLabel,
                   nbPlaces: zone.nbplaces,
@@ -163,20 +171,41 @@ const extractAndFilterListings = async (req, res, next) => {
       fs.mkdirSync(tempDir, { recursive: true });
     }
 
-    // 8. Sauvegarde
-    const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-    const filepath = path.join(tempDir, `listings_viagogo_${timestamp}.json`);
-    if (Array.isArray(finalResult) && finalResult.length > 0) {
-        fs.writeFileSync(filepath, JSON.stringify(finalResult, null, 2));
-        console.log(`✅ [B1] [INFO] Fichier de listings enregistré dans : ${filepath}`);
-    } else {
-        console.log("⏩ [B1] [INFO] Résultat vide, aucun fichier créé.");
+    // 8. Sauvegarde par salle
+    for (const groupKey in groupedResults) {
+      const group = groupedResults[groupKey];
+      if (!group.listings.length) continue;
+    
+      const venueSlug = slugifyVenueName(group.venue.name);
+      const filename = `listings_viagogo_${venueSlug}.json`;
+      const filepath = path.join(tempDir, filename);
+    
+      try {
+        let existingData = [];
+        if (fs.existsSync(filepath)) {
+          const content = fs.readFileSync(filepath, "utf-8");
+          existingData = JSON.parse(content);
+          if (!Array.isArray(existingData)) existingData = [];
+        }
+    
+        // Evite doublon d'event_id (par exemple)
+        const isAlreadyInFile = existingData.some(ev => ev.event_id === group.event_id);
+        if (!isAlreadyInFile) {
+          existingData.push(group);
+          fs.writeFileSync(filepath, JSON.stringify(existingData, null, 2));
+          console.log(`✅ [B1] [INFO] Ajout de l'événement dans : ${filepath}`);
+        } else {
+          console.log(`⏩ [B1] [INFO] Événement déjà présent dans : ${filepath}, pas d'ajout.`);
+        }
+    
+      } catch (e) {
+        console.error(`[B1] [ERROR] Erreur lecture/écriture fichier ${filename} :`, e);
+      }
     }
 
     console.log(`\n✅ [B1] [INFO] Nombre total de nouveaux listings générés : ${totalListings}\n`);
 
     req.numberOfListings = totalListings;
-    req.listings_file = filepath;
     next();
   } catch (error) {
     console.error(error);
@@ -195,7 +224,7 @@ const normalizeTickets = tickets => {
   if (!Array.isArray(tickets)) return [];
   return tickets.map(cleanTicket)
     .map(t => JSON.stringify(t))
-    .sort(); // l'ordre ne compte pas
+    .sort();
 };
 
 export default extractAndFilterListings;

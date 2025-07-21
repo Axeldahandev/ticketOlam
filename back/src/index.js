@@ -9,12 +9,16 @@ import connectDatabase from "./config/database.js";
 import "./config/cronJobs.js";
 
 const app = express();
-const PORT = process.env.PORT || 6001;
 
 app.use(express.json());
 app.use(cors({
-  origin: '*', // à restreindre plus tard si besoin
+  origin: "*", // temporairement pour tester
 }));
+
+app.use((req, res, next) => {
+  // console.log("Request received from:", req.headers.origin);
+  next();
+});
 
 app.use("/", homeRoutes);
 app.use("/listings", listingsRoutes);
@@ -22,10 +26,11 @@ app.use("/fr", frRoutes);
 app.use("/events", eventsRoutes);
 app.use("/errors", errorsRoutes);
 
+
 const startServer = async () => {
   await connectDatabase();
-  app.listen(PORT, () => {
-    console.log(`✅ OK - Serveur lancé sur http://localhost:${PORT}`);
+  app.listen(6001, '0.0.0.0', () => {
+    console.log(`✅ OK - Serveur lancé sur http://localhost:6001}`);
   });
 };
 

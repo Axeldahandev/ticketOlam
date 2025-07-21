@@ -1,4 +1,6 @@
 import Event from "../schemas/Event.js";
+import path from "path";
+import fs from "fs";
 
 const getVGListingsWithSeats = async (req, res) => {
     try {

@@ -179,12 +179,16 @@ const processFirstScrapingForEvents = async (req, res, next) => {
         }
 
         console.log("\nℹ️ [A2] [INFO] Vérification des événements avec plusieurs séances et récupération des places disponibles pour chaque séance\n");
-        const eventsWithNullInfoCategories = await Event.find({
-            "tickets.infoCategories": null
-          });
         
+        const eventsWithNullInfoCategories = await Event.find({
+            $and: [
+                { "tickets.infoCategories": { $exists: true, $eq: null } },
+                { tickets: { $ne: [ { Doublon: true } ] } }
+              ]
+        });
+        console.log(eventsWithNullInfoCategories);
         console.log(`ℹ️ [A2] [INFO] ${eventsWithNullInfoCategories.length} évènements avec plusieurs séances à traiter\n`);
-
+        
             for (let i = 0; i < eventsWithNullInfoCategories.length; i++) {
                 let event = eventsWithNullInfoCategories[i];
                 let idtier = extractIdtierFromTicketsUrl(event.tickets_url);

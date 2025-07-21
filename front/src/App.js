@@ -6,6 +6,7 @@ import Listings from './pages/listings';
 import Header from './components/Header';
 import Actions from './pages/actions';
 import ErrorsMatching from './pages/errorsMatching';
+import WaitingListings from './pages/waitingListings';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/listings" element={<Listings />} />
         <Route path="/actions" element={<Actions />} />
         <Route path="/errors" element={<ErrorsMatching />} />
+        <Route path="/waiting-listings" element={<WaitingListings />} />
       </Routes>
     </Router>
   );

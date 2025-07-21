@@ -149,7 +149,7 @@ async function onsale_requests_for_event(eventInfo, matchedEvent, listing, cooki
             VenueCountryCode: 'FR',
             ExistingMaxPriceReductionPercentage: null,
             Pcid: null,
-            AcceptConfirmation: true
+            // AcceptConfirmation: true
         },
     }
 

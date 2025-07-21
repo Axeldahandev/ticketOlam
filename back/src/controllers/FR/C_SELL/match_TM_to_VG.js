@@ -44,28 +44,7 @@ function loadGeneralMatchingJSON() {
 function matchTMToVG(zoneLabelTM, venueName, viagogoBlocks) {
     const normalizedTM = normalize(zoneLabelTM);
 
-    // --- 1. Cherche dans la salle ---
-    const salleMapping = loadSalleMatchingJSON(venueName);
-    if (salleMapping) {
-        for (const key of Object.keys(salleMapping)) {
-            if (key === "description") continue;
-            if (normalize(key) === normalizedTM) {
-                for (const vgLabel of salleMapping[key]) {
-                    const match = viagogoBlocks.find(
-                        b => normalize(b.value) === normalize(vgLabel)
-                    );
-                    if (match) {
-                        console.log(`✅ [C1] [MATCHING SALLE] [${venueName}] TM "${zoneLabelTM}" -> VG "${match.value}"`);
-                        return match.value;
-                    }
-                }
-                // clé trouvée mais aucun block
-                console.log(`⚠️ [C1] [MATCHING SALLE] [${venueName}] Clé trouvée mais aucun block VG dispo pour "${zoneLabelTM}"`);
-            }
-        }
-    }
-
-    // --- 2. Cherche dans les matchings généraux ---
+    // --- 1. Cherche dans le général ---
     const generalMapping = loadGeneralMatchingJSON();
     if (generalMapping) {
         for (const key of Object.keys(generalMapping)) {
@@ -77,6 +56,25 @@ function matchTMToVG(zoneLabelTM, venueName, viagogoBlocks) {
                     );
                     if (match) {
                         console.log(`✅ [C1] [MATCHING GENERAL] TM "${zoneLabelTM}" -> VG "${match.value}"`);
+                        return match.value;
+                    }
+                }
+            }
+        }
+    }
+    
+    // --- 2. Cherche dans la salle ---
+    const salleMapping = loadSalleMatchingJSON(venueName);
+    if (salleMapping) {
+        for (const key of Object.keys(salleMapping)) {
+            if (key === "description") continue;
+            if (normalize(key) === normalizedTM) {
+                for (const vgLabel of salleMapping[key]) {
+                    const match = viagogoBlocks.find(
+                        b => normalize(b.value) === normalize(vgLabel)
+                    );
+                    if (match) {
+                        console.log(`✅ [C1] [MATCHING SALLE] [${venueName}] TM "${zoneLabelTM}" -> VG "${match.value}"`);
                         return match.value;
                     }
                 }

@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { getVGListingsWithSeats } from "../controllers/listingsController.js";
+import  resellListingsFromFile from "../controllers/FR/C_SELL/resellListingsFromFile.js";
 import Event from "../schemas/Event.js";
 
 const router = Router();
@@ -50,5 +51,20 @@ router.patch('/stop-listing', async (req, res) => {
         res.status(500).json({ error: "Erreur lors de la suppression de VGListing." });
     }
 });
+
+router.post("/resell-file", async (req, res) => {
+    try {
+      const { fileName } = req.body;
+      if (!fileName) {
+        return res.status(400).json({ error: "Le nom du fichier est requis" });
+      }
+      const result = await resellListingsFromFile(fileName);
+      res.json({ message: result });
+    } catch (error) {
+      console.error("Erreur relance mise en vente :", error);
+      res.status(500).json({ error: "Erreur serveur lors de la relance de la mise en vente" });
+    }
+  });
+
 
 export default router;

@@ -48,19 +48,23 @@
 }
 
 .search-button {
+    display: flex;
     background-color: #e5e7eb;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    color: black;
     border: none;
     border-radius: 4px;
     height: 35px;
-    width: 35px;
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.2s;
+    padding: 0 10px;
 }
 
 .search-button:hover {
   background-color: #2563eb;
+  color: white;
 }
 
 .sort-button {
@@ -184,4 +188,12 @@
 .pagination-button:hover:enabled {
     background-color: #1e40af;
     transform: translateY(-1px);
+}
+
+.delete-button {
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
 }

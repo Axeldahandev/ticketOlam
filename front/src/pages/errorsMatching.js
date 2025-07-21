@@ -44,7 +44,22 @@ const ErrorsMatching = () => {
         <div className="title-page">Erreurs de Matching</div>
         <button className="reset-button" onClick={handleReset}>
                 Réinitialiser les erreurs
+        </button>
+        <div className="pagination">
+            <button
+                onClick={() => setPage((p) => Math.max(p - 1, 1))}
+                disabled={page === 1}
+            >
+                Précédent
             </button>
+            <span>Page {page} / {totalPages}</span>
+            <button
+                onClick={() => setPage((p) => Math.min(p + 1, totalPages))}
+                disabled={page === totalPages}
+            >
+                Suivant
+            </button>
+        </div>
         <table className="errors-table">
             <thead>
                 <tr>
@@ -79,21 +94,7 @@ const ErrorsMatching = () => {
                 ))}
             </tbody>
         </table>
-        <div className="pagination">
-            <button
-                onClick={() => setPage((p) => Math.max(p - 1, 1))}
-                disabled={page === 1}
-            >
-                Précédent
-            </button>
-            <span>Page {page} / {totalPages}</span>
-            <button
-                onClick={() => setPage((p) => Math.min(p + 1, totalPages))}
-                disabled={page === totalPages}
-            >
-                Suivant
-            </button>
-        </div>
+        
     </div>
 );
 };

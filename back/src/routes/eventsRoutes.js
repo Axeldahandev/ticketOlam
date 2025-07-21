@@ -1,10 +1,14 @@
 import { Router } from "express";
-import { listOfTickets } from "../controllers/eventsController.js";
+import { listOfTickets, deleteEvents, getListOfListingFiles, getEventsFromListingFile } from "../controllers/eventsController.js";
 import Event from "../schemas/Event.js";
 
 const router = Router();
 
 router.get("/list", listOfTickets);
+
+router.post("/listing-files", getListOfListingFiles);
+
+router.post("/events-from-file", getEventsFromListingFile);
 
 router.get("/:id", async (req, res) => {
     try {
@@ -18,5 +22,8 @@ router.get("/:id", async (req, res) => {
         res.status(500).json({ message: "Server error" });
     }
 });
+
+router.delete("/delete", deleteEvents);
+
 
 export default router;

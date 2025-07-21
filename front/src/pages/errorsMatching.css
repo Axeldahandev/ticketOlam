@@ -53,7 +53,7 @@
 }
 
 .pagination {
-    margin-top: 20px;
+    margin: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -90,7 +90,6 @@
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.1s ease;
     font-size: 14px;
-    margin-bottom: 10px;
 }
 
 .reset-button:hover {

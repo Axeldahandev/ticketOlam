@@ -128,7 +128,7 @@ export async function getTicketmasterSessionCookies() {
         let browser = null;
         try {
             browser = await puppeteer.launch({
-                headless: true,
+                headless: false,
                 args: launchArgs,
                 defaultViewport: { width: 1200, height: 800 },
                 userDataDir: `/tmp/puppeteer_${Date.now()}_${Math.random()}`
@@ -136,7 +136,9 @@ export async function getTicketmasterSessionCookies() {
             const page = await browser.newPage();
             if (user && pass) await page.authenticate({ username: user, password: pass });
             await page.deleteCookie(...(await page.cookies()));
-            await page.goto(PAGE_URL, { waitUntil: 'domcontentloaded', timeout: 35000 });
+            await page.goto(PAGE_URL, { waitUntil: 'networkidle2', timeout: 35000 });
+            await page.goto("https://leboncoin.fr/", { waitUntil: 'networkidle2', timeout: 35000 });
+            await page.goto(PAGE_URL, { waitUntil: 'networkidle0', timeout: 35000 });
             await page.waitForSelector('textarea[name="g-recaptcha-response"]', { timeout: 20000 });
             const token = await solveRecaptchaEnterprise();
             await page.evaluate((token) => {
@@ -149,7 +151,7 @@ export async function getTicketmasterSessionCookies() {
                     textarea.dispatchEvent(evt);
                 }
             }, token);
-            await new Promise(resolve => setTimeout(resolve, 5000));
+            await new Promise(resolve => setTimeout(resolve, 7500));
             const cookies = await page.cookies();
             const cookieHeader = cookies.map(c => `${c.name}=${c.value}`).join('; ');
 
