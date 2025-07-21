@@ -34,8 +34,8 @@ const get_viagogo_cookies = async () => {
       await page.waitForSelector("#Login_Password");
       await page.type("#Login_UserName", "davseb94@gmail.com");
       await page.type("#Login_Password", "2%Yq@+YMgM8%Rbb");
-      // await page.type('#Login_UserName', "ticketomlam@gmail.com");
-            // await page.type('#Login_Password', "TW79wZS4%iZG_xi");
+      // await page.type('#Login_UserName', "ticketolam@gmail.com");
+      // await page.type('#Login_Password', "TW79wZS4%iZG_xi");
       await page.click("#sbmt");
       await page.waitForNavigation({ waitUntil: "networkidle2" });
       await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -131,7 +131,7 @@ const resellListingsFromFile = async (fileName) => {
     throw error;
   }
 
-  const filePath = path.resolve("./src/temp", `${fileName}.json`);
+  const filePath = path.resolve("back/src/temp", `${fileName}.json`);
   if (!fs.existsSync(filePath)) {
     throw new Error(`Fichier listing non trouvé : ${fileName}`);
   }

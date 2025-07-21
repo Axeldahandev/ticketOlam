@@ -108,7 +108,8 @@
         "date_seance": "2026-01-24T15:00:00.000+01:00",
         "type": "category"
       }
-    ]
+    ],
+    "demande_envoyee_a_viagogo": true
   },
   {
     "event_id": "687e2928e0746e9d2dafdebd",
@@ -123,135 +124,6 @@
       "postal_code": "13004"
     },
     "listings": [
-      {
-        "zone_label": "CARRE OR",
-        "nbPlaces": 140,
-        "price": 95,
-        "listingPrice": 114,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "category"
-      },
-      {
-        "zone_label": "AC",
-        "nbPlaces": 55,
-        "price": 95,
-        "listingPrice": 114,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CARRE OR"
-      },
-      {
-        "zone_label": "CG",
-        "nbPlaces": 54,
-        "price": 95,
-        "listingPrice": 114,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CARRE OR"
-      },
-      {
-        "zone_label": "CATEGORIE 1",
-        "nbPlaces": 548,
-        "price": 73,
-        "listingPrice": 87.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "category"
-      },
-      {
-        "zone_label": "GC",
-        "nbPlaces": 134,
-        "price": 73,
-        "listingPrice": 87.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 1"
-      },
-      {
-        "zone_label": "HD",
-        "nbPlaces": 100,
-        "price": 73,
-        "listingPrice": 87.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 1"
-      },
-      {
-        "zone_label": "HE",
-        "nbPlaces": 70,
-        "price": 73,
-        "listingPrice": 87.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 1"
-      },
-      {
-        "zone_label": "HF",
-        "nbPlaces": 88,
-        "price": 73,
-        "listingPrice": 87.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 1"
-      },
-      {
-        "zone_label": "IG",
-        "nbPlaces": 133,
-        "price": 73,
-        "listingPrice": 87.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 1"
-      },
-      {
-        "zone_label": "CATEGORIE 2",
-        "nbPlaces": 222,
-        "price": 63,
-        "listingPrice": 75.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "category"
-      },
-      {
-        "zone_label": "J",
-        "nbPlaces": 52,
-        "price": 63,
-        "listingPrice": 75.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 2"
-      },
-      {
-        "zone_label": "K",
-        "nbPlaces": 117,
-        "price": 63,
-        "listingPrice": 75.6,
-        "max_buy": 20,
-        "devise": "EUR",
-        "date_seance": "2026-01-24T20:30:00.000+01:00",
-        "type": "zone",
-        "category_mere": "CATEGORIE 2"
-      },
       {
         "zone_label": "L",
         "nbPlaces": 53,
